@@ -3,6 +3,13 @@
 
 #include <stdio.h>
 
+/**
+ * enum kind_e - enumerated type
+ * @SPADE: the spade
+ * @HEART: the heart
+ * @CLUB: the club
+ * @DIAMOND: the diamond
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
